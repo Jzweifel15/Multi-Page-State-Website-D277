@@ -34,6 +34,12 @@
     width: auto;
 }
 
+.showcase {
+    display: flex;
+    height: 82.5%;
+    /* flex-direction: row; */
+}
+
 #navbar {
     width: 10%;
     height: 100%;
@@ -67,6 +73,16 @@
 
 #navbar .menu li a:hover {
     transform: translateY(-15px);
+}
+
+#main {
+    border: 1px solid blue;
+    width: 65%;
+}
+
+#aside {
+    border: 1px solid green;
+    width: 25%;
 }
 
 #footer {
