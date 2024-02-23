@@ -75,14 +75,30 @@
     transform: translateY(-10px);
 }
 
-#main {
+.main {
     border: 1px solid blue;
-    width: 65%;
+    width: 70%;
+}
+
+#main-homepage {
+    background: no-repeat center/cover url("./assets/homepage-bg.jpeg");
+}
+
+#main-columbus {
+    background: no-repeat center/cover url("./assets/columbus-bg.jpeg");
+}
+
+#main-cincinnati {
+    background: no-repeat center/cover url("./assets/cincinnati-bg.webp");
+}
+
+#main-cleveland {
+    background: no-repeat center/cover url("./assets/cleveland-bg.jpeg");
 }
 
 #aside {
     border: 1px solid green;
-    width: 25%;
+    width: 20%;
 }
 
 #footer {
