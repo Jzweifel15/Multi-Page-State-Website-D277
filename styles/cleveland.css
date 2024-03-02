@@ -1,0 +1,21 @@
+.main h2 {
+    font-size: 2rem;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.main p {
+    width: 35%;
+    line-height: 1.5;
+}
+
+.main .container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#main-cleveland {
+    background: no-repeat center/cover url("../assets/cleveland-bg.jpeg");
+}
