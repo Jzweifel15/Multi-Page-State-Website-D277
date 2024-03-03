@@ -69,3 +69,41 @@
 #main-tourism table a:visited {
     color: #FFF;
 }
+
+@media(max-width: 1024px) {
+    #navbar {
+        width: 15%;
+    }
+
+    #main-tourism {
+        width: 85%;
+    }
+
+    #main-tourism .container {
+        max-width: 750px;
+        padding: 0 15px;
+        margin-left: 5px;
+    }
+
+    #main-tourism .container h2 {
+        font-size: 25px;;
+    }
+    
+    #main-tourism .container p {
+        margin: 5px 0;
+    }
+
+    #main-tourism table th {
+        padding: 5px 5px;
+        font-size: 0.8rem;
+    }
+    
+    #main-tourism table td {
+        padding: 5px 5px;
+        font-size: 0.8rem;
+    }
+
+    #main-tourism table .row-filler {
+        height: 35px;
+    }
+}
