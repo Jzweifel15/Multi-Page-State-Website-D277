@@ -107,3 +107,22 @@
         height: 35px;
     }
 }
+
+@media(max-width: 500px) {
+    #navbar {
+        width: 0;
+    }
+    #main-tourism {
+        width: 100%;
+        display: grid;
+        margin: auto;
+    }
+
+    #main-tourism .container .main-text h2 {
+        text-align: center;
+    }
+
+    #main-tourism .container .main-text .arrow {
+        display: none;
+    }
+}
