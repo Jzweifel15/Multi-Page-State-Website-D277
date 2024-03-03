@@ -35,3 +35,13 @@
         width: 50%;
     }
 }
+
+@media(max-width: 500px) {
+    .main .container {
+        align-items: center;
+    }
+
+    .main p {
+        display: none;
+    }
+}
