@@ -74,16 +74,17 @@
     transform: translateY(-7px);
 }
 
-.main {
-    width: 70%;
+.showcase-main-section {
+    width: 90%;
+    display: flex;
+}
+
+.showcase-main-section .main {
+    width: 80%;
     color: #FFF;
 }
 
-#main-cincinnati {
-    background: no-repeat center/cover url("./assets/cincinnati-bg.webp");
-}
-
-#aside {
+.showcase-main-section #aside {
     width: 20%;
     color: #1E1E1E;
     display: flex;
@@ -93,11 +94,11 @@
     gap: 25px;
 }
 
-#aside h3 {
+.showcase-main-section #aside h3 {
     text-align: center;
 }
 
-#aside .statistics {
+.showcase-main-section #aside .statistics {
     width: 99%;
     height: 35%;
     font-size: 0.9rem;
@@ -105,27 +106,27 @@
     border-collapse: collapse;
 }
 
-#aside .statistics td {
+.showcase-main-section #aside .statistics td {
     text-align: center;
 }
 
-#aside .statistics tr:nth-child(odd) {
+.showcase-main-section #aside .statistics tr:nth-child(odd) {
     background-color: #FF482A;
 }
 
-#aside .statistics tr:nth-child(even) {
+.showcase-main-section #aside .statistics tr:nth-child(even) {
     background-color: #BCBCBC;
 }
 
-#aside .statistics tr:nth-child(odd):hover {
+.showcase-main-section #aside .statistics tr:nth-child(odd):hover {
     background-color: #FF6248;
 }
 
-#aside .statistics tr:nth-child(even):hover {
+.showcase-main-section #aside .statistics tr:nth-child(even):hover {
     background-color: #C9C9C9;
 }
 
-#aside .statistics a:visited {
+.showcase-main-section #aside .statistics a:visited {
     color: #FFF;
 }
 
@@ -160,4 +161,15 @@
 
 #footer .social li a:hover {
     transform: scale(0.5) translateY(-15px);
+}
+
+/* Media Queries */
+
+/* Tablet */
+@media(max-width: 1024px) {
+    body {
+        border: 3px solid purple;
+    }
+
+
 }
