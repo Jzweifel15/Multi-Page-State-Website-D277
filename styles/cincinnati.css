@@ -24,3 +24,14 @@
 #main-cincinnati {
     background: no-repeat center/cover url("../assets/cincinnati-bg.webp");
 }
+
+@media(max-width: 1024px) {
+    .main h2 {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+    }
+
+    .main p {
+        width: 50%;
+    }
+}
