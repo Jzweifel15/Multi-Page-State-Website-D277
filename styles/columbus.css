@@ -20,3 +20,19 @@
 #main-columbus {
     background: no-repeat center/cover url("../assets/columbus-bg.jpeg");
 }
+
+@media(max-width: 1024px) {
+    .main h2 {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+    }
+
+    .main p {
+        width: 50%;
+    }
+
+    .main .container {
+        top: 105px;
+        left: 15px;
+    }
+}
