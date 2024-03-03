@@ -34,3 +34,9 @@
         top: 285px;
     }
 }
+
+@media(max-width: 500px) {
+    .main p {
+        display: none;
+    }
+}
