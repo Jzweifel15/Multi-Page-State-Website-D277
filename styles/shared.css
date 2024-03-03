@@ -249,4 +249,8 @@
     #navbar .menu.show {
         transform: translateX(-20px);
     }
+
+    .showcase-main-section {
+        width: 100%;
+    }
 }
