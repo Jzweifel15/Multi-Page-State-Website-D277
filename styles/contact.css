@@ -38,19 +38,11 @@
 #main-contact p {
     margin: 20px 0;
 }
-
-#main-contact p {
-    margin: 20px 0;
-  }
   
 #main-contact .grid {
     grid-template-columns: 55% 45%;
     gap: 30px;
     overflow: visible;
-}
-  
-.main-text {
-    animation: slideInFromLeft 1s ease-in;
 }
 
 .tour-btn {
@@ -111,4 +103,35 @@
 .tour-btn:hover, 
 .submit-btn:hover {
     transform: scale(.98);
+}
+
+@media(max-width: 1024px) {
+    #main-contact h2 {
+        font-size: 27.5px;
+    }
+
+    #main-contact p {
+        margin: 10px 0;
+    }
+
+    #main-contact .grid {
+        grid-template-columns: 50% 50%;
+        gap: 20px;
+    }
+
+    .tour-btn {
+        padding: 7.5px 22.5px;
+    }
+
+    .main-form {
+        height: 460px;
+        width: 375px;
+        padding: 35px;
+    }
+    
+    .main-form textarea {
+        width: 305px;
+        height: 100px;
+        resize: none;
+    }
 }
