@@ -36,20 +36,22 @@
 #header .menu-btn {
     cursor: pointer;
     width: 50px;
-    height: 40px;
     position: absolute;
-    top: 30px;
-    right: 20px;
+    top: 25x;
+    right: 25px;
     z-index: 2;
     display: none;
 }
 
 #header .menu-btn .bar {
-    width: 100%;
+    width: 35px;
     height: 5px;
     background-color: #FF482A;
-    border-radius: 3px;
-    margin-bottom: 10px;
+    /* border-radius: 3px; */
+    margin: 5px auto;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
 }
 
 .showcase {
@@ -79,7 +81,6 @@
 #navbar .menu li:first-child {
     margin-top: 20px;
 }
-
 
 #navbar .menu li a {
     text-decoration: none;
@@ -216,6 +217,18 @@
         display: block;
     }
 
+    #header .menu-btn.pressed .bar.top {
+        transform: translateY(9px) rotate(45deg)
+    }
+
+    #header .menu-btn.pressed .bar.mid {
+        opacity: 0;
+    }
+
+    #header .menu-btn.pressed .bar.bottom {
+        transform: translateY(-9px) rotate(-45deg);
+    }
+
     #navbar { 
         width: 0;
     }
@@ -253,4 +266,5 @@
     .showcase-main-section {
         width: 100%;
     }
+
 }
